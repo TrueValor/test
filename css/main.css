@@ -1,0 +1,38 @@
+@import "reset";
+@import "home";
+
+body, html{
+  background-color: purple;
+  margin:0;
+  padding: 0;
+  font-size: 18px;
+  font-family: 'Barlow Semi Condensed', sans-serif;
+}
+
+/*----------Info-section--------------*/
+.info-section{
+  width:35%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+.info-section p{
+  font-size: 1.1rem;
+  font-weight: 300;
+  color: white;
+  margin: .2rem 0 0 1.5rem;
+}
+.info-section h4{
+  font-size: 1.2rem;
+  color:white;
+  margin: .7rem 0;
+}
+
+
+/*----------Content-area-----------------*/
+.content-area{
+  margin-left: 35%;
+  width: 65%;
+  background-color: white;
+}
